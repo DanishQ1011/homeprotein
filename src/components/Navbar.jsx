@@ -4,7 +4,7 @@ import logo from '@/assets/logo.png'
 
 export default function Navbar(){
     return(
-        <nav className="py-4 px-9 mx-40">
+        <nav className="py-4">
             <div className="flex justify-between items-center">
                 <div>
                     <Link href='#/home'>
