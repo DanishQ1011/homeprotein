@@ -4,7 +4,7 @@ import hero from '@/assets/hero.png'
 
 export default function Hero(){
     return(
-        <main className="flex justify-between items-center">
+        <main className="flex justify-between items-center pt-[10rem]">
             <div className="flex flex-col gap-8 ">
                 <h1 className="text-primary1 font-semibold text-[36px] w-[26rem]">HomeProtein: Mom's Protein Delights.</h1>
                 <p className="text-primary2 w-[28rem]">Indulge in protein-packed perfection with HomeProtein - where every bite is a mom-made, wholesome delight.</p>

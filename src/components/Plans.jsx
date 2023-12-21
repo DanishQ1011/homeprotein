@@ -4,23 +4,23 @@ import Image from "next/image";
 
 export default function Plan(){
     return(
-        <section>
+        <section className="mt-10">
             <div className="flex flex-col gap-4 items-center">
                 <h1 className="text-[34px] text-primary2 font-semibold">Protein-Packed Mornings, Wallet-Friendly Choices.</h1>
                 <p className="text-[18px]">Energize your day affordably with our budget-friendly Breakfast Meal options.</p>
             </div>
 
             <div className="mt-10 flex gap-5 justify-center">
-                <div className="p-[50px] w-[30rem] h-[25rem] rounded-md shadow-2xl">
+                <div className="p-[50px] w-[30rem] h-[28rem] rounded-md shadow-2xl">
                     <div className="flex flex-col gap-3 items-center">
                         <h1 className="text-primary2 text-[24px] font-semibold">Weekly Plan</h1>
-                        <p className="text-primary2">Fueling Your Week with Protein.</p>
-                        <h1 className="text-[28px] font-semibold text-primary2">1400 <span className="text-[16px] font-normal">/ week</span> </h1>
+                        <p className="text-primary2">Monthly flavors, crafted with care.</p>
+                        <h1 className="mt-4 text-[32px] font-semibold text-primary2">₹1400<span className="text-[16px] font-normal">/ week</span> </h1>
                     </div>
                     <div className="mt-5">
-                    <ul className="list-none">
+                    <ul className="list-none text-sm text-primary2 leading-[2]">
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">7 meals</span></li>
-                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">220 per meal</span></li>
+                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">₹220 per meal </span></li>
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Weekends included</span></li>
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Delivery charges included</span></li>
                     </ul>
@@ -34,16 +34,16 @@ export default function Plan(){
                     </div>
                 </div>
                 <div>
-                <div className="p-[50px] w-[30rem] h-[25rem] rounded-md shadow-2xl">
+                <div className="p-[50px] w-[30rem] h-[28rem] rounded-md shadow-2xl">
                     <div className="flex flex-col gap-3 items-center">
                         <h1 className="text-primary2 text-[24px] font-semibold">Monthly Plan</h1>
                         <p className="text-primary2">Fueling Your Week with Protein.</p>
-                        <h1 className="text-[28px] font-semibold text-primary2">1400 <span className="text-[16px] font-normal">/ week</span> </h1>
+                        <h1 className="mt-4 text-[32px] font-semibold text-primary2">₹5400<span className="text-[16px] font-normal">/ month</span> </h1>
                     </div>
                     <div className="mt-5">
-                    <ul className="list-none">
-                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">7 meals</span></li>
-                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">220 per meal</span></li>
+                    <ul className="list-none text-sm text-primary2 leading-[2]">
+                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">30 meals</span></li>
+                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">₹180 per meal (18% off)</span></li>
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Weekends included</span></li>
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Delivery charges included</span></li>
                     </ul>
