@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
 import FreeCard from "@/components/FreeCard"
 import Breakfast from "@/components/Breakfast"
+import Plans from "@/components/Plans"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero/>
       <FreeCard/>
       <Breakfast/>
+      <Plans/>
     </main>
   )
 }
