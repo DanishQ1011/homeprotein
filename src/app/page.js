@@ -4,6 +4,7 @@ import FreeCard from "@/components/FreeCard"
 import Breakfast from "@/components/Breakfast"
 import Plans from "@/components/Plans"
 import Linner from "@/components/Linner"
+import Plans2 from "@/components/Plans2"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Plans/>
       <FreeCard/>
       <Linner/>
+      <Plans2/>
     </main>
   )
 }
