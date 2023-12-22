@@ -12,7 +12,9 @@ export default function Footer(){
                 <div>
                     <ul className="list-none flex gap-10 text-gray-700 ">
                         <Link href='#/'><li className="hover:underline">Help</li></Link>
-                        <Link href='#/'><li className="hover:underline">Policy</li></Link>
+                        <a href="/policies" target="_blank" rel="noopener noreferrer">
+                            <li className="hover:underline">Policy</li>
+                        </a>
                         <Link href='#/'><li className="hover:underline">Terms</li></Link>
                         <Link href='#/'><li className="hover:underline">Contact</li></Link>
                     </ul>
