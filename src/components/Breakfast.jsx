@@ -9,6 +9,9 @@ import Image from 'next/image'
 const menus = [menu1, menu2, menu3, menu4, menu5];
 
 export default function Breakfast(){
+
+    const concatenatedMenus = [...menus, ...menus];
+
     return(
         <section>
             <div className="flex flex-col justify-center items-center mt-[5rem] gap-3">
@@ -16,12 +19,15 @@ export default function Breakfast(){
                 <p className="text-primary2 text-[20px]">Revitalize your mornings with our scrumptious Breakfast Meal!</p>
             </div>
             <div className='flex logos'>
-                <div className='logos-slide flex transition-transfrom duration-1000 ease-in-out '>
-                    {menus.map((menu, index) => (
-                        <Image key={index} src={menu} alt={`menu${index + 1}`} className='rounded-2xl w-[370px] object-contain'/>
-                    ))}
-                    {menus.map((menu, index) => (
-                        <Image key={index} src={menu} alt={`menu${index + 1}`} className='rounded-2xl w-[370px] object-contain'/>
+                <div className='logos-slide flex transition-transfrom ease-in-out '>
+                    {concatenatedMenus.map((menu, index) => (
+                        <Image 
+                            key={index} 
+                            src={menu} 
+                            alt={`menu${index + 1}`} 
+                            className='rounded-2xl w-[370px] object-contain'
+                            style={{ animationDelay: `${index * 4}s` }}    
+                        />
                     ))}
                 </div>
             </div>

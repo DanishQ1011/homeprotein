@@ -9,6 +9,7 @@ import Fact from "@/components/Fact";
 import About from "@/components/About";
 import Questions from "@/components/Questions"
 import QueryForm from "@/components/QueryForm";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -30,6 +31,10 @@ export default function Home() {
       </section>
       <Questions />
       <QueryForm/>
+      <section className="px-9 mx-44">
+      <Footer/>
+      </section>
+      
     </>
   );
 }
