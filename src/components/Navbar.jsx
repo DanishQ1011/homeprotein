@@ -7,9 +7,9 @@ export default function Navbar(){
         <nav className="py-4 px-[13rem] bg-white fixed top-0 left-0 right-0 z-50 ">
             <div className="container mx-auto flex justify-between items-center">
                 <div>
-                    <Link href='#/home'>
+                    <a href='/'>
                         <Image src={logo} alt="logo" className="w-[7rem]"/>
-                    </Link>
+                    </a>
                 </div>
                 <div className="flex gap-10 items-center">
                     <ol className="list-none flex gap-8">
@@ -18,9 +18,12 @@ export default function Navbar(){
                         <Link href='#/contact'><li>Contact</li></Link>
                     </ol>
 
-                    <button className="px-3 py-2 bg-black text-white rounded-md">
-                        Get Free Trial
-                    </button>
+                    <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
+                        <button className="px-3 py-2 bg-black text-white rounded-md">
+                            Get Free Trial
+                        </button>
+                    </a>
+                    
                 </div>
             </div>
         </nav>

@@ -8,11 +8,11 @@ export default function Hero(){
             <div className="flex flex-col gap-8 ">
                 <h1 className="text-primary1 font-semibold text-[36px] w-[26rem]">HomeProtein: Mom's Protein Delights.</h1>
                 <p className="text-primary2 w-[28rem]">Indulge in protein-packed perfection with HomeProtein - where every bite is a mom-made, wholesome delight.</p>
-                <Link href='/' >
+                <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer" >
                     <button className="px-4 py-3 bg-black text-white rounded-md">
                         Subscribe Now
                     </button>
-                </Link>
+                </a>
             </div>
             <div>
                 <Image src={hero} alt="heroimage" className="w-[560px]"/>
