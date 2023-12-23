@@ -13,9 +13,9 @@ export default function Navbar(){
                 </div>
                 <div className="flex gap-10 items-center">
                     <ol className="list-none flex gap-8">
-                        <Link href='#/plans'><li>Plans</li></Link>
-                        <Link href='#/about'><li>About</li></Link>
-                        <Link href='#/contact'><li>Contact</li></Link>
+                        <Link href='#plans'><li>Plans</li></Link>
+                        <Link href='#about'><li>About</li></Link>
+                        <Link href='#contact'><li>Contact</li></Link>
                     </ol>
 
                     <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">

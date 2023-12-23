@@ -5,7 +5,7 @@ import arrowright from '@/assets/arrowright.svg'
 
 export default function About(){
     return(
-        <section>
+        <section id="about">
             <div className="flex items-center gap-10">
                 <div>
                     <Image src={about} alt="aboutmom" className="w-[560px]"/>

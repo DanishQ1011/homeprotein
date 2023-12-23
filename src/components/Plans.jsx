@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Plan(){
     return(
-        <section className="mt-10">
+        <section className="mt-10" id="plans">
             <div className="flex flex-col gap-4 items-center">
                 <h1 className="text-[34px] text-primary2 font-semibold">Protein-Packed Mornings, Wallet-Friendly Choices.</h1>
                 <p className="text-[18px]">Energize your day affordably with our budget-friendly Breakfast Meal options.</p>

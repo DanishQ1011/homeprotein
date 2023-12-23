@@ -2,12 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: white; /* Set the background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFA100; /* Set the color of the thumb */
+  border-radius: 5px; /* Add rounded corners to the thumb */
+}
+
+
 @keyframes slide {
     from {
       transform: translateX(0);
     }
     to {
-      transform: translateX(-300%);
+      transform: translateX(-175%);
     }
   }
   
@@ -27,5 +45,5 @@
   .logos-slide {
     display: flex;
     gap: 10px;
-    animation: 60s slide infinite linear;
+    animation: 30s slide infinite linear;
   }

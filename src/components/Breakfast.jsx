@@ -26,7 +26,6 @@ export default function Breakfast(){
                             src={menu} 
                             alt={`menu${index + 1}`} 
                             className='rounded-2xl w-[370px] object-contain'
-                            style={{ animationDelay: `${index * 4}s` }}    
                         />
                     ))}
                 </div>

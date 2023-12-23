@@ -7,6 +7,7 @@ export default function QueryForm(){
 const [name, setName] = useState("");
 const [email, setEmail] = useState("");
 const [phone, setPhone] = useState('');
+const [message, setMessage] = useState('');
 
 const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,6 +16,7 @@ const handleSubmit = async (e) => {
         email,
         name,
         phone,
+        message,
     }
 
     console.log("Data: ", formData)
@@ -37,6 +39,7 @@ const handleSubmit = async (e) => {
 
     return(
         <>
+        <section id="contact">
         <div className="flex items-center justify-center h-screen border-b-2">
         <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg">
           <h2 className="text-2xl text-primary2 font-bold text-center mb-2">Or drop a message, and we'll reach out to you!</h2>
@@ -87,7 +90,15 @@ const handleSubmit = async (e) => {
 
                     <div className="w-1/2 mx-auto mb-4">
                         <label htmlFor="message" className="block text-gray-700 text-[12px] font-semibold mb-2">Message</label>
-                        <textarea id="message" name="message" className="px-3 py-2 border border-gray-300 hover:border-black rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full" rows="4" placeholder="Enter your message"></textarea>
+                        <textarea 
+                            id="message"
+                            value={message}
+                            onChange={({target}) => setMessage(target?.value)}  
+                            name="message" 
+                            className="px-3 py-2 border border-gray-300 hover:border-black rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full" 
+                            rows="4" 
+                            placeholder="Enter your message">
+                        </textarea>
                     </div>
 
                     <button 
@@ -107,6 +118,7 @@ const handleSubmit = async (e) => {
           
         </div>
       </div>
+      </section>
       </>
     )
 }
