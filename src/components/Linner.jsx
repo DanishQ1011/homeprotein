@@ -16,8 +16,8 @@ export default function Breakfast(){
     return(
         <section>
             <div className="flex flex-col justify-center items-center mt-[5rem] gap-3">
-                <h1 className="text-primary1 font-semibold text-[34px]">Lunch & Dinner Options</h1>
-                <p className="text-primary2 text-[20px]">Deliciously curated, our Lunch & Dinner meal is a flavor-packed delight for your midday break!</p>
+                <h1 className="text-primary1 font-semibold text-[34px] text-center">Lunch & Dinner Options</h1>
+                <p className="text-primary2 text-[20px] text-center">Deliciously curated, our Lunch & Dinner meal is a flavor-packed delight for your midday break!</p>
             </div>
             <div className='flex logos'>
                 <div className='logos-slide flex transition-transfrom duration-1000 ease-in-out '>

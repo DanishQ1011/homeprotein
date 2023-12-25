@@ -5,12 +5,12 @@ import logo from '@/assets/logo.png'
 export default function Footer(){
     return(
         <footer>
-            <div className="flex justify-between items-center py-4 mx-auto border-b-2">
+            <div className="flex max-sm:flex-col justify-between items-center py-4 mx-auto border-b-2">
                 <div>
                     <Image src={logo} alt="logo" className="w-[7rem]"/>
                 </div>
                 <div>
-                    <ul className="list-none flex gap-10 text-gray-700 ">
+                    <ul className="list-none flex gap-10 text-gray-700">
                         <Link href='#/'><li className="hover:underline">Help</li></Link>
                         <a href="/policies" target="_blank" rel="noopener noreferrer">
                             <li className="hover:underline">Policy</li>

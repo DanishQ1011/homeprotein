@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <main className="px-9 mx-44">
+      <main className="px-9 mx-44 max-lg:mx-auto ">
         <SiteNavbar />
         <Hero />
         <FreeCard />
@@ -26,12 +26,12 @@ export default function Home() {
         <FreeCard />
       </main>
       <Fact />
-      <section className="px-9 mx-44">
+      <section className="px-9 mx-44 max-lg:mx-auto">
         <About />
       </section>
       <Questions />
       <QueryForm/>
-      <section className="px-9 mx-44">
+      <section className="px-9 mx-44 max-lg:mx-auto">
       <Footer/>
       </section>
       

@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+import dotenv from 'dotenv';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
@@ -10,8 +11,8 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'shah.official1011@gmail.com',
-        pass: 'zhin urbv jdwp bvcv'
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
       }
     });
 

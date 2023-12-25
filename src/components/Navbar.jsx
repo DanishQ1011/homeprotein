@@ -4,14 +4,14 @@ import logo from '@/assets/logo.png'
 
 export default function Navbar(){
     return(
-        <nav className="py-4 px-[13rem] bg-white fixed top-0 left-0 right-0 z-50 ">
+        <nav className="py-4 px-[13rem] max-lg:px-[2rem] bg-white fixed top-0 left-0 right-0 z-50 ">
             <div className="container mx-auto flex justify-between items-center">
                 <div>
                     <a href='/'>
                         <Image src={logo} alt="logo" className="w-[7rem]"/>
                     </a>
                 </div>
-                <div className="flex gap-10 items-center">
+                <div className="flex gap-10 items-center max-sm:hidden ">
                     <ol className="list-none flex gap-8">
                         <Link href='#plans'><li>Plans</li></Link>
                         <Link href='#about'><li>About</li></Link>
