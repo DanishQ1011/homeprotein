@@ -5,11 +5,11 @@ import Footer from '@/components/Footer'
 export default function policies() {
   return (
     <>
-    <main className="px-9 mx-44 ">
-    <Navbar/>
-    <section className='mt-[10rem] py-10 mb-5 border-b-2'>
+    <main className="mt-10 px-9 py-9 mx-44 max-sm:mx-auto max-lg:mx-auto">
+    {/* <Navbar/> */}
+    <section className='mt-40 py-10 mb-5 border-b-2'>
         <div>
-            <h1 className='text-center mb-4 text-primary2 text-[32px] font-bold'>Conditions and Policies</h1>
+            <h1 className='text-center mt-[20rem] mb-4 text-primary2 text-[32px] font-bold'>Conditions and Policies</h1>
             
             <div className='flex flex-col gap-5'>
 
