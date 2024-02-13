@@ -19,12 +19,12 @@ export default function policies() {
             </div>
 
             <div>
-                <p className='font-semibold'>Merch</p>
+                <p className='font-semibold'>Pausing subscription:</p>
                 <ul><li className='list-disc ml-8'>You can request a refund anytime before the subscription ends and 100% of the amount remaining for rest of the subscription days will be refunded (minimal charges may apply, which will be conveyed during the cancellation).</li></ul>
             </div>
 
             <div>
-                <p className='font-semibold'>Pausing subscription:</p>
+                <p className='font-semibold'>Merch:</p>
                 <ul>
                     <li className='list-disc ml-8'>For first meal subscriptions, the merchandise kit will be delivered within 2-4 weeks in case of no cancellation of the meal plan and at least 15 meals delivered.</li>
                     <li className='list-disc ml-8'>Free Merchandise delivery is subject to availibility.</li>
