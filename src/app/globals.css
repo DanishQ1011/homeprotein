@@ -47,3 +47,7 @@ html{
     gap: 10px;
     animation: 30s slide infinite linear;
   }
+
+  .custom-carousel .carousel-slider .slide img {
+    margin-left: -20px; /* Offset the negative margin */
+  }

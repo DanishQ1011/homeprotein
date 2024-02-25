@@ -11,6 +11,7 @@ import Questions from "@/components/Questions"
 import QueryForm from "@/components/QueryForm";
 import Footer from "@/components/Footer";
 import Review from "@/components/Review";
+import Slider from '@/components/Slider';
 
 export default function Home() {
   return (
@@ -26,6 +27,9 @@ export default function Home() {
         <Plans2 />
       </main>
       <Review/>
+        <div className="lg:hidden">
+          <Slider/>
+        </div>
       <Fact />
       <section className="px-9 mx-44 max-lg:mx-auto">
         <About />
