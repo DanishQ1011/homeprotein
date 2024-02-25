@@ -10,6 +10,7 @@ import About from "@/components/About";
 import Questions from "@/components/Questions"
 import QueryForm from "@/components/QueryForm";
 import Footer from "@/components/Footer";
+import Review from "@/components/Review";
 
 export default function Home() {
   return (
@@ -23,8 +24,8 @@ export default function Home() {
         <FreeCard />
         <Linner />
         <Plans2 />
-        <FreeCard />
       </main>
+      <Review/>
       <Fact />
       <section className="px-9 mx-44 max-lg:mx-auto">
         <About />
