@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     const formData = req.body;
 
     // Replace 'your-email@gmail.com' with the destination email address
-    const toEmail = 'shah.official1011@gmail.com';
+    const toEmail = 'devu.nm21@gmail.com';
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         pass: process.env.EMAIL_PASS
       }
     });
-
+    // devu.nm21@gmail.com
     const mailOptions = {
       from: 'shah.official1011@gmail.com',
       to: toEmail,
