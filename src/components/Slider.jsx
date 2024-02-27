@@ -7,6 +7,8 @@ import review2 from '@/assets/reviews/r2.jpg'
 import review1 from '@/assets/reviews/r1.jpg'
 import review3 from '@/assets/reviews/r3.jpg'
 import pfp3 from '@/assets/reviews/pfp3.jpg'
+import pfp2 from '@/assets/reviews/pfp2.jpg'
+import pfp1 from '@/assets/reviews/pfp1.jpg'
 import Image from "next/image";
 
 export default function Slider() {
@@ -19,9 +21,17 @@ export default function Slider() {
         <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true} interval={8000} transitionTime={500} className="mx-[2px]">
             <div>
                 <Image src={review1} alt='review1' className='object-contain rounded-2xl w-[25rem] '/>
+                <div className='flex flex-col justify-center items-center gap-4'>
+                    <a href='https://www.linkedin.com/in/vishalbgodhwani/' target="_blank"><Image src={pfp2} alt='pfp2'  width={40} className='mt-4 object-contain rounded-full w-[2.5rem]'/></a>
+                    <p className='text-[14px]'><span className='text-primary1'>-</span> Vishal Godhwani</p>
+                </div>
             </div>
             <div>
                 <Image src={review2} alt='review2' className='object-contain rounded-2xl w-[25rem]'/>
+                <div className='flex flex-col justify-center items-center gap-4 mt-4'>
+                    <a href='https://www.linkedin.com/in/sandeep-yadav-1908v/' target="_blank"><Image src={pfp1} alt='pfp1' width={40} className=' object-contain rounded-full w-[2.5rem]'/></a>
+                    <p className='text-[14px]'><span className='text-primary1'>-</span> Sandeep Yadav</p>
+                </div>
             </div>
             <div className='flex flex-col gap-3'>
                 <Image src={review3} alt='review3' className='object-contain rounded-2xl w-[25rem]'/> 
