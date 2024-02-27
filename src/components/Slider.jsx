@@ -18,7 +18,17 @@ export default function Slider() {
         <h1 className="text-[34px] text-primary2 font-semibold text-center max-sm:w-[18rem]">What Do People Tell About Us</h1>
         <p className="text-[18px] text-center max-sm:w-[20rem]">Join the loads of happy customers who are already subscribed to us!</p>
     </div>
-        <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true} interval={8000} transitionTime={500} className="mx-[2px]">
+        <Carousel 
+            showThumbs={false} 
+            infiniteLoop={true} 
+            stopOnHover={true} 
+            showArrows={false} 
+            autoPlay={true} 
+            interval={8000} 
+            transitionTime={500}
+            emulateTouch={true} 
+            className="mx-[2px]"
+        >
             <div>
                 <Image src={review1} alt='review1' className='object-contain rounded-2xl w-[25rem] '/>
                 <div className='flex flex-col justify-center items-center gap-4'>

@@ -19,7 +19,7 @@ const Review = () => {
             <div className='flex flex-col gap-3'>
                 <Image src={review2} alt='review2' className='object-contain rounded-2xl w-[25rem] shadow-2xl'/>
                 <div className='flex flex-col justify-center items-center gap-4'>
-                    <a href='https://www.linkedin.com/in/sandeep-yadav-1908v/' target="_blank"><Image src={pfp1} alt='pfp1' className='object-contain rounded-full w-[2.5rem]'/></a>
+                    <a href='https://www.linkedin.com/in/sandeep-yadav-1908v/' target="_blank"><Image src={pfp1} alt='pfp1' className='mt-2 object-contain rounded-full w-[2.5rem]'/></a>
                     <p className='text-[14px]'><span className='text-primary1'>-</span> Sandeep Yadav</p>
                 </div>
 
