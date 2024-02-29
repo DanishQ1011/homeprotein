@@ -19,6 +19,30 @@ html{
   border-radius: 5px; /* Add rounded corners to the thumb */
 }
 
+input[type="range"] {
+  accent-color : #FFA100;
+  margin-top: 0.25rem; /* Adjust as needed */
+
+  &::-webkit-slider-thumb {
+    width: 1.5rem; /* Adjust the thumb size as needed */
+    height: 1.5rem; /* Adjust the thumb size as needed */
+    background-color: #FFA100; /* Change this color as needed */
+    border: 2px solid #fff; /* Add a border for better visibility */
+    border-radius: 50%; /* Ensure the thumb is circular */
+    appearance: none;
+ /* Adjust as needed to center the thumb vertically */
+  }
+
+  &:focus {
+    outline: #FFD87D;
+  }
+
+  &:hover::-webkit-slider-thumb {
+    background-color: #FFD87D; /* Change this color as needed */
+  }
+}
+
+
 
 @keyframes slide {
     from {
@@ -51,3 +75,5 @@ html{
   .custom-carousel .carousel-slider .slide img {
     margin-left: -20px; /* Offset the negative margin */
   }
+
+  
