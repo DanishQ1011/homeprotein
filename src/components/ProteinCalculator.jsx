@@ -7,7 +7,7 @@ const ProteinCalculator = () => {
   // const [height, setHeight] = useState('');
   // const [age, setAge] = useState('');
   // const [activityFactor, setActivityFactor] = useState(1.375); // Default to lightly active
-  const [goalFactor, setGoalFactor] = useState(0.8); // Default to maintain muscles
+  const [goalFactor, setGoalFactor] = useState(0); // Default to maintain muscles
   const [proteinIntake, setProteinIntake] = useState(null);
 
   const calculateProteinIntake = () => {
@@ -31,7 +31,7 @@ const ProteinCalculator = () => {
     //   5 * ageInYears +
     //   activityFactor * goalFactor;
 
-    const requiredProtein = weightInKg * (goalFactor === 'gainMuscles' ? 1.8 : 0.8);
+    const requiredProtein = weightInKg * (goalFactor === 1.8 ? 1.8 : 0.8);
 
     setProteinIntake(requiredProtein.toFixed(2));
   };
@@ -155,9 +155,9 @@ const ProteinCalculator = () => {
                     type="radio"
                     id="maintainMuscles"
                     name="goalFactor"
-                    value={1.0}
-                    checked={goalFactor === 1.0}
-                    onChange={() => setGoalFactor(1.0)}
+                    value={0.8}
+                    checked={goalFactor === 0.8}
+                    onChange={() => setGoalFactor(0.8)}
                   />
                 </div>
                 <div className='flex items-center'>
@@ -168,9 +168,9 @@ const ProteinCalculator = () => {
                     type="radio"
                     id="gainMuscles"
                     name="goalFactor"
-                    value={1.2}
-                    checked={goalFactor === 1.2}
-                    onChange={() => setGoalFactor(1.2)}
+                    value={1.8}
+                    checked={goalFactor === 1.8}
+                    onChange={() => setGoalFactor(1.8)}
                     className="mr-2"
                   />
                 </div>
