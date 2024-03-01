@@ -93,9 +93,9 @@ const PaymentOption = () => {
     <footer className="flex flex-col mt-4 p-3">
       <div className="flex  max-sm:flex-col max-sm:items-center  justify-between">
         <a href="/" target="_blank">
-        <Image src={logo} alt="logo" className="w-[10rem] "/>
+        <Image src={logo} alt="logo" className="w-[8rem] "/>
         </a>
-        <div className="flexitems-center p-5">
+        <div className="flex items-center p-5">
                 <div>
                     <ul className="list-none flex gap-10 text-gray-700">
                         <Link href='#/'><li className="hover:underline">Help</li></Link>
