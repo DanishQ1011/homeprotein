@@ -30,10 +30,10 @@ export default function Navbar(){
                 </div>
                 <div className="flex gap-10 items-center max-sm:hidden ">
                     <ol className="list-none flex gap-8">
-                        <Link href='#plans'><li>Plans</li></Link>
-                        <Link href='#reviews'><li>Reviews</li></Link>
-                        <Link href='#about'><li>About</li></Link>
-                        <Link href='#contact'><li>Contact</li></Link>
+                        <Link href='/#plans'><li>Plans</li></Link>
+                        <Link href='/#reviews'><li>Reviews</li></Link>
+                        <Link href='/#about'><li>About</li></Link>
+                        <Link href='/#contact'><li>Contact</li></Link>
                     </ol>
 
                     <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
@@ -65,10 +65,10 @@ export default function Navbar(){
                 </div>                
 
                 <ol className="list-none flex flex-col gap-4 mt-8">
-                    <Link href='#plans'><li>Plans</li></Link>
-                    <Link href='#reviews'><li>Reviews</li></Link>
-                    <Link href='#about'><li>About</li></Link>
-                    <Link href='#contact'><li>Contact</li></Link>
+                    <Link href='/#plans'><li>Plans</li></Link>
+                    <Link href='/#reviews'><li>Reviews</li></Link>
+                    <Link href='/#about'><li>About</li></Link>
+                    <Link href='/#contact'><li>Contact</li></Link>
                 </ol>
                 <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
                     <button className="mt-6 px-3 py-2 w-full bg-black text-white rounded-md">
