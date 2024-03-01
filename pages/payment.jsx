@@ -4,7 +4,7 @@ import '../src/app/globals.css'
 
 const payment = () => {
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-indigo-500 to-blue-600">
+    <div className="w-full h-screen ">
       <div className="p-4">
         <PaymentOption/>
       </div>

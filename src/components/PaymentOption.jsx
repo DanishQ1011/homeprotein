@@ -6,16 +6,18 @@ import paymentimg from '@/assets/paymentimg.png'
 import upi from '@/assets/upi.png'
 import cards from '@/assets/cards.png'
 import logo from '@/assets/logo.png'
+import email from '@/assets/email.png'
+import whatsapp from '@/assets/whatsapp.png'
 import Link from "next/link";
 
 const PaymentOption = () => {
   return (
     <>
-    <main className="mx-44">
-      <h1 className="p-8 text-center text-[36px] text-primary1 font-semibold">Payment for free trial</h1>
-      <div className="flex gap-10 ">
+    <main className="mx-44 max-lg:mx-auto">
+      <h1 className="p-8 text-center text-[36px] text-primary1 font-semibold max-sm:text-[30px]">Payment for free trial</h1>
+      <div className="flex gap-10 max-sm:flex-col-reverse">
       <div className="mt-8">
-      <Image src={paymentimg} alt="paymentimg" width={400} />
+      <Image src={paymentimg} alt="paymentimg" width={400} className="rounded-lg" />
     </div>
     <div className="flex flex-col">
     <div className="p-5 mt-6 bg-gray-200 rounded-lg text-[20px] font-semibold">
@@ -53,24 +55,30 @@ const PaymentOption = () => {
         answer={            
         <>
         <section className="flex flex-col">
-          <div className="flex items-center justify-evenly gap-4">
+          <div className="flex max-sm:flex-col items-center justify-evenly gap-4">
             <div>
               Step 1. Pay using the UPI ID - {" "}
               <span className="font-bold">home.protein@axl</span>
             </div>
-              <p >OR</p>
+              <p>OR</p>
             <div className="flex flex-col gap-2 items-center">
-              <p>Scan this UPI QR Code</p>
-              <Image src={qrcode} alt="qrcode" width={200}/>
+              <p className="text-[16px]">Scan this UPI QR Code</p>
+              <Image src={qrcode} alt="qrcode" width={200} className="rounded-lg border-2 border-primary1"/>
             </div>
           </div>
 
           <div className="mt-8 flex items-center gap-8">
             <div className="flex flex-col">
               Step 2. Send the Payment confirmation to our {" "}
-              <span className="font-bold">WhatsApp - +91 9880010215</span>
-              <p >Or</p>
-              <span className="font-bold">Email - theoffice@homeprotein.in</span>
+              <span className="font-bold mt-4 flex gap-3">
+                <Image src={whatsapp} alt="whatsapp" width={28}/>
+                WhatsApp - +91 9880010215
+              </span>
+              <p className="ml-[8rem]">Or</p>
+              <span className="font-bold flex gap-2">
+                <Image src={email} alt="email" width={28} className="w-[23px]"/>
+                Email - theoffice@homeprotein.in
+              </span>
             </div>
 
           </div>
@@ -81,13 +89,13 @@ const PaymentOption = () => {
     </div>
     </div>
     </div>
-    <footer className="flex p-10">
-      <div>
+
+    <footer className="flex flex-col mt-4 p-3">
+      <div className="flex  max-sm:flex-col max-sm:items-center  justify-between">
         <a href="/" target="_blank">
-        <Image src={logo} alt="logo" className="w-[10rem]"/>
+        <Image src={logo} alt="logo" className="w-[10rem] "/>
         </a>
-      </div>
-      <div className="flex max-sm:flex-col justify-between items-center py-4 mx-auto">
+        <div className="flexitems-center p-5">
                 <div>
                     <ul className="list-none flex gap-10 text-gray-700">
                         <Link href='#/'><li className="hover:underline">Help</li></Link>
@@ -99,11 +107,15 @@ const PaymentOption = () => {
                     </ul>
                 </div>
             </div>
-            <div className="mt-5 py-5 font-light leading-relaxed mb-5 text-right">
+        </div>
+
+        <div>
+            <div className="font-light py-8 leading-relaxed border-t-2">
                 <p>Home Protein, #73,7th Cross Rd, 3rd Block, Koramangala 3 Block,</p>
                 <p>Bengaluru, Karnataka 560034</p>
                 <p>© 2023 HomeProtein. All rights reserved.</p>
             </div>
+          </div>
     </footer>
     </main>
 
