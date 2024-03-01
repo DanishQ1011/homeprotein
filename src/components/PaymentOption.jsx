@@ -16,7 +16,7 @@ const PaymentOption = () => {
     <>
     <Navbar/>
     <main className="mx-44 mt-[100px] max-lg:mx-auto">
-      <h1 className="text-center text-[36px] text-primary1 font-semibold max-sm:text-[30px]">Payment for trial</h1>
+      <h1 className="text-center text-[36px] text-primary1 font-semibold max-sm:text-[30px]">Payment for Trial Meals</h1>
       <div className="flex gap-10 max-sm:flex-col-reverse">
       <div className="mt-8">
       <Image src={paymentimg} alt="paymentimg" width={400} className="rounded-lg" />
