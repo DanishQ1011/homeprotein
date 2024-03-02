@@ -146,11 +146,9 @@ const ProteinCalculator = () => {
               <label htmlFor="goalFactor" >
                 Goal Factor:
               </label>
-              <div className="flex items-center gap-5 max-sm:gap-8">
+              <div className="flex items-center gap-6 text-[14px]">
                 <div className='flex items-center'>
-                  <label htmlFor="maintainMuscles" className="mr-3">
-                    Maintain muscles
-                  </label>
+
                   <input
                     type="radio"
                     id="maintainMuscles"
@@ -159,11 +157,13 @@ const ProteinCalculator = () => {
                     checked={goalFactor === 0.8}
                     onChange={() => setGoalFactor(0.8)}
                   />
+                  <label htmlFor="maintainMuscles" className="ml-2">
+                    Maintain muscles
+                  </label>
+
                 </div>
                 <div className='flex items-center'>
-                  <label htmlFor="gainMuscles" className="mr-3">
-                    Grow muscles
-                  </label>
+
                   <input
                     type="radio"
                     id="gainMuscles"
@@ -171,8 +171,11 @@ const ProteinCalculator = () => {
                     value={1.8}
                     checked={goalFactor === 1.8}
                     onChange={() => setGoalFactor(1.8)}
-                    className="mr-2"
                   />
+                  <label htmlFor="gainMuscles" className="ml-2">
+                    Grow muscles
+                  </label>
+
                 </div>
               </div>
             </div>
