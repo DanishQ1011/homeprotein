@@ -15,7 +15,7 @@ const PaymentOption = () => {
   return (
     <>
     <Navbar/>
-    <main className="mx-44 mt-[100px] max-lg:mx-auto">
+    <main className="mx-44 mt-[110px] max-lg:mx-auto">
       <h1 className="text-center text-[36px] text-primary1 font-semibold max-sm:text-[30px]">Payment for Trial Meals</h1>
       <div className="flex gap-10 max-sm:flex-col-reverse">
       <div className="mt-8">
@@ -34,7 +34,7 @@ const PaymentOption = () => {
         }
         answer={
           <>
-            <a href="https://buy.stripe.com/test_4gwaHE2X7fFTdVK4gg">
+            <a href="https://buy.stripe.com/28o03S4Hn7n23Qc5ks">
               <button className="px-4 py-3 bg-black text-white rounded-md">
                 Click here to Pay ₹49 
               </button>
