@@ -40,13 +40,13 @@ export default function Plan(){
                     <div className="flex flex-col gap-3 items-center">
                         <h1 className="text-primary2 text-[24px] font-semibold">Monthly Plan</h1>
                         <p className="text-primary2">Fueling Your Week with Protein.</p>
-                        <h1 className="mt-4 text-[32px] font-semibold text-primary2">₹6,000<span className="text-[16px] font-normal">/ month</span> </h1>
+                        <h1 className="mt-4 text-[32px] font-semibold text-primary2">₹5,899<span className="text-[16px] font-normal">/ month</span> </h1>
                     </div>
                     <div className="mt-5">
                     <ul className="list-none text-sm text-primary2 leading-[2]">
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">30 meals</span></li>
-                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">₹200 per meal </span></li>
-                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Both Lunch and Dinner at ₹12,000</span></li>
+                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">₹196 per meal </span></li>
+                            <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Both Lunch and Dinner at ₹9,899</span></li>
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">40gm+ protein per meal</span></li>
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Super protein at extra ₹60 per meal (+30g protien)</span></li>
                             <li className="flex items-center"><Image src={checkmark} alt="check" className="stroke-orange-300"/><span className="ml-2">Delivery charges included</span></li>

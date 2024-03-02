@@ -38,7 +38,7 @@ export default function Navbar(){
 
                     <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
                         <button className="px-3 py-2 bg-black text-white rounded-md">
-                        Get Trial
+                            Try Now!
                         </button>
                     </a>
                 </div>
@@ -72,7 +72,7 @@ export default function Navbar(){
                 </ol>
                 <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
                     <button className="mt-6 px-3 py-2 w-full bg-black text-white rounded-md">
-                    Get Trial
+                        Try Now!
                     </button>
                 </a>
                 </div>
