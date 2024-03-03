@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
       <Script strategy='afterInteractive' src='https://www.googletagmanager.com/gtag/js?id=G-SXXTS7KV2L' />
       <Script strategy='afterInteractive' id='google-analytics'>
         {`
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
           })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         `}
       </Script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
