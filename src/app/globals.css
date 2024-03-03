@@ -44,36 +44,60 @@ input[type="range"] {
 
 
 
-@keyframes slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-175%);
-    }
+@keyframes slideDesktop {
+  from {
+    transform: translateX(0);
   }
-  
-  .logos {
-    overflow: hidden;
-    padding: 60px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-    display: flex;
+  to {
+    transform: translateX(-175%);
   }
-  
-  .logos:hover .logos-slide {
-    animation-play-state: paused;
+}
+
+@keyframes slideMobile {
+  from {
+    transform: translateX(0);
   }
-  
+  to {
+    transform: translateX(-725%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex;
+  gap: 10px;
+}
+
+/* Desktop styles and animation */
+@media (min-width: 768px) {
   .logos-slide {
-    display: flex;
-    gap: 10px;
-    animation: 30s slide infinite linear;
+    animation: 20s slideDesktop infinite linear;
   }
 
   .custom-carousel .carousel-slider .slide img {
     margin-left: -20px; /* Offset the negative margin */
   }
+}
 
-  
+/* Mobile styles and animation */
+@media (max-width: 767px) {
+  .logos-slide {
+    animation: 35s slideMobile infinite linear; /* Adjust the speed for mobile */
+  }
+}
+  .custom-carousel .carousel-slider .slide img {
+    margin-left: -20px; /* Offset the negative margin */
+  }
+
