@@ -23,7 +23,7 @@ export default function Footer(){
             <div className="mt-5 py-5 font-light leading-relaxed mb-5">
                 <p>Home Protein, #73,7th Cross Rd, 3rd Block, Koramangala 3 Block,</p>
                 <p>Bengaluru, Karnataka 560034</p>
-                <p>© 2023 HomeProtein. All rights reserved.</p>
+                <p>© 2024 HomeProtein. All rights reserved.</p>
             </div>
         </footer>
     )
