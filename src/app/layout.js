@@ -2,7 +2,6 @@ import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import Hotjar from '@hotjar/browser';
 import './globals.css';
-import React, { useEffect } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
