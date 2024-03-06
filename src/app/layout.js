@@ -10,8 +10,13 @@ export const metadata = {
   description: 'HomeProtein is a Meal Subscription Brand which gets you Protein-packed Meals cooked by Moms from their kitchens to your doorstep.',
 };
 
+
 export default function RootLayout({ children }) {
-  Smartlook.init('6069357b361092f4fa3bb98752ef46a02bdaa5a3')
+
+  if (typeof window !== "undefined") {
+    Smartlook.init('6069357b361092f4fa3bb98752ef46a02bdaa5a3');
+  }
+
   return (
     <html lang="en">
       <head>
