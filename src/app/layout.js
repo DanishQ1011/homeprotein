@@ -1,6 +1,5 @@
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
-import Hotjar from '@hotjar/browser';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -11,23 +10,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const siteId = 3890019;
-  const hotjarVersion = 6;
-  Hotjar.init(siteId, hotjarVersion);
 
   return (
     <html lang="en">
       <head>
-      {/* <script>
-          (function(h,o,t,j,a,r){
-              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-              h._hjSettings={hjid:3890019,hjsv:6};
-              a=o.getElementsByTagName('head')[0];
-              r=o.createElement('script');r.async=1;
-              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-              a.appendChild(r);
-          })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-      </script> */}
+        <Script strategy="afterInteractive">
+          window.smartlook||(function(d) {`
+            var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+            var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+            c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+            })(document);
+            smartlook('init', '6069357b361092f4fa3bb98752ef46a02bdaa5a3', { region: 'eu' `});
+        </Script>
 
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-SXXTS7KV2L" />
         <Script strategy="afterInteractive" id="google-analytics">
