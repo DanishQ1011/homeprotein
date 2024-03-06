@@ -20,7 +20,8 @@
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "smartlook-client": "^8.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

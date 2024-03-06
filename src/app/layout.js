@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
+import Smartlook from 'smartlook-client'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -10,18 +11,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
+  Smartlook.init('6069357b361092f4fa3bb98752ef46a02bdaa5a3')
   return (
     <html lang="en">
       <head>
-        <Script strategy="afterInteractive">
+        {/* <Script strategy="afterInteractive">
           window.smartlook||(function(d) {`
             var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
             var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
             c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
             })(document);
             smartlook('init', '6069357b361092f4fa3bb98752ef46a02bdaa5a3', { region: 'eu' `});
-        </Script>
+        </Script> */}
 
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-SXXTS7KV2L" />
         <Script strategy="afterInteractive" id="google-analytics">
