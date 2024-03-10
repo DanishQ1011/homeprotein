@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hotjar/browser": "^1.0.9",
     "axios": "^1.6.2",
     "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
@@ -18,15 +17,18 @@
     "nodemailer": "^6.9.7",
     "react": "^18",
     "react-dom": "^18",
+<<<<<<< Updated upstream
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.30.2",
     "react-switch": "7.0.0",
     "slick-carousel": "^1.8.1",
     "smartlook-client": "^8.3.0"
+=======
+    "react-responsive-carousel": "^3.2.23"
+>>>>>>> Stashed changes
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
-    "daisyui": "^4.7.2",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }

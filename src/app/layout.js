@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
-import Smartlook from 'smartlook-client'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -12,10 +11,6 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
-
-  if (typeof window !== "undefined") {
-    Smartlook.init('6069357b361092f4fa3bb98752ef46a02bdaa5a3');
-  }
 
   return (
     <html lang="en">
