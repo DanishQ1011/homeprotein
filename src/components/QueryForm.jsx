@@ -40,7 +40,7 @@ const handleSubmit = async (e) => {
     return(
         <>
         <section id="contact">
-        <div className="flex items-center justify-center p-12 border-b-2">
+        <div className="flex items-center justify-center p-12">
         <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg">
           <h2 className="text-2xl text-primary2 font-bold text-center mb-2 max-sm:w-[20rem]">Or drop a message, and we'll reach out to you!</h2>
           <p className="text-md text-center mb-8">Have questions about pricing, plans, or our meals? Fill out the form, and we will get in touch.</p>

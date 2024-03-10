@@ -35,7 +35,7 @@ const PaymentOption = () => {
         answer={
           <>
             <a href="https://buy.stripe.com/28o03S4Hn7n23Qc5ks">
-              <button className="px-4 py-3 bg-black text-white rounded-md">
+              <button className="mt-4 px-4 py-3 bg-black text-white rounded-md">
                 Click here to Pay ₹49 
               </button>
             </a>
@@ -56,7 +56,7 @@ const PaymentOption = () => {
 
         answer={            
         <>
-        <section className="flex flex-col">
+        <section className="flex flex-col mt-3">
           <div className="flex max-sm:flex-col items-center justify-evenly gap-4">
             <div>
               Step 1. Pay using the UPI ID - {" "}

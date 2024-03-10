@@ -13,6 +13,7 @@ import Footer from "@/components/Footer";
 import Review from "@/components/Review";
 import Slider from '@/components/Slider';
 import ProteinCalculator from "@/components/ProteinCalculator";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -38,10 +39,10 @@ export default function Home() {
       </section>
       <Questions />
       <QueryForm/>
+      <FAQ/>
       <section className="px-9 mx-44 max-lg:mx-auto">
       <Footer/>
       </section>
-      
     </>
   );
 }
