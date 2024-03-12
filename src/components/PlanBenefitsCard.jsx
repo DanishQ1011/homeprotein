@@ -1,5 +1,7 @@
-import checkmark from "@/assets/checkmark.svg";
+import checkmark from "../assets/checkmark.svg";
 import Image from "next/image";
+import CountUp from 'react-countup';
+
 
 const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice }) => {
   return (
@@ -8,7 +10,12 @@ const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice }) => {
         <h1 className="text-primary2 text-[24px] font-semibold">{title}</h1>
         <p className="text-primary2">{subTitle}</p>
         <h1 className="mt-4 text-[32px] font-semibold text-primary2">
-          {subPrice}
+        <CountUp
+          preserveValue={true}
+          end={subPrice}
+          duration={2}
+          prefix="₹"
+        />
           <span className="text-[16px] font-normal">/ month</span>{" "}
         </h1>
       </div>
@@ -21,7 +28,13 @@ const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice }) => {
                 alt="check"
                 className="stroke-orange-300"
               />
-              <span className="ml-2">{benefit}</span>
+              <span className="ml-2">
+                {typeof benefit === 'object' ? (
+                  <CountUp {...benefit} />
+                ) : (
+                  benefit
+                )}
+              </span>
             </li>
           ))}
         </ul>

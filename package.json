@@ -16,6 +16,8 @@
     "next": "14.0.4",
     "nodemailer": "^6.9.7",
     "react": "^18",
+    "react-animated-numbers": "^0.18.0",
+    "react-countup": "^6.5.0",
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.30.2",

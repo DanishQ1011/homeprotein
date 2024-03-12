@@ -6,6 +6,7 @@ const useToggle = (initialValue = false) => {
 
   const toggle = () => {
     setValue(!value);
+    console.log(value)
   };
 
   return [value, toggle];
