@@ -29,11 +29,7 @@ const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice }) => {
                 className="stroke-orange-300"
               />
               <span className="ml-2">
-                {typeof benefit === 'object' ? (
-                  <CountUp {...benefit} />
-                ) : (
-                  benefit
-                )}
+                {benefit}
               </span>
             </li>
           ))}
