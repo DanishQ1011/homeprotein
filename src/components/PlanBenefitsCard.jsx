@@ -13,7 +13,7 @@ const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice }) => {
         <CountUp
           preserveValue={true}
           end={subPrice}
-          duration={2}
+          duration={0.5}
           prefix="₹"
         />
           <span className="text-[16px] font-normal">/ month</span>{" "}

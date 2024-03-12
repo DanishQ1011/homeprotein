@@ -6,7 +6,6 @@ import Switch from "react-switch";
 import { formatIndianNumber } from "@/utils/formatting";
 import { priceConfig } from "@/utils/priceConfig";
 import PlanBenefitsCard from "@/components/PlanBenefitsCard.jsx";
-import CountUp, { useCountUp } from 'react-countup'
 import { useState, useEffect } from "react";
 
 export default function Plan() {
@@ -15,6 +14,20 @@ export default function Plan() {
   const [isChecked, toggleSwitch] = useToggle(true);
   const selectedPlan = isChecked ? "high" : "balanced";
   const displayConfig = priceConfig[selectedPlan];
+
+  const monthlyPricePerMeal = formatIndianNumber(
+    displayConfig?.monthly?.perMealPrice
+  );
+  const weeklyPricePerMeal = formatIndianNumber(
+    displayConfig?.weekly?.perMealPrice
+  );
+
+  const monthlyDiscountedLinnerPrice = formatIndianNumber(
+    displayConfig?.monthly?.linnerDiscountedPrice
+  );
+  const weeklyDiscountedLinnerPrice = formatIndianNumber(
+    displayConfig?.weekly?.linnerDiscountedPrice
+  );
 
   const proteinContent = selectedPlan === "high" ? "35gm+" : "15-20gm";
 
@@ -32,20 +45,19 @@ export default function Plan() {
   
   const weeklyPlanBenefits = [
     "7 Meals",
-    { end: config.weekly.perMealPrice, preserveValue: true,  duration: 2, prefix: "₹", suffix:" per meal" },
-    { end: config.weekly.linnerDiscountedPrice, preserveValue: true, duration: 2, prefix: "Both Lunch and Dinner ₹" },
-    `${proteinContent} protein per meal`,
+    `${weeklyPricePerMeal} per meal`,
+    `Both Lunch and Dinner ${weeklyDiscountedLinnerPrice}`,
+    `${proteinContent} proten per meal`,
     "Delivery charges included",
   ];
 
   const monthlyPlanBenefits = [
     "30 Meals",
-    { end: config.monthly.perMealPrice, preserveValue: true, duration: 2, prefix: "₹", suffix:" per meal" },
-    { end: config.monthly.linnerDiscountedPrice, preserveValue: true, duration: 2, prefix: "Both Lunch and Dinner ₹" },
-    `${proteinContent} protein per meal`,
+    `${monthlyPricePerMeal} per meal`,
+    `Both Lunch and Dinner ${monthlyDiscountedLinnerPrice}`,
+    `${proteinContent} proten per meal`,
     "Delivery charges included",
   ];
-
   // console.log(monthylSubPrice)
   // console.log(weeklySubPrice)
 
