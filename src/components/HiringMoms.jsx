@@ -63,7 +63,7 @@ const HiringMoms = () => {
 
             <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
               <div>
-              <h2 className="font-semibold text-[28px]">Step 4. Recepies Training</h2>
+              <h2 className="font-semibold text-[28px]">Step 4. Recipes Training</h2>
               <p className="text-[18px] mt-3">Training is divided into two modules:</p>
               <ul className="mt-3 text-[18px] list-disc ml-4">
                 <li><span className="font-bold">Cooking Techniques:</span> Learn essential skills and methods for preparing delicious meals while maintaining hygiene standards. Covering cooking processes and techniques.</li>
