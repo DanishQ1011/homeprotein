@@ -22,7 +22,7 @@ export default function Navbar(){
     return(
         <>
         <nav className="py-2 px-[13rem] max-sm:px-[3rem] max-lg:px-[2rem] bg-white fixed top-0 left-0 right-0 z-50 ">
-            <div className="container mx-auto flex justify-between items-center">
+            <div className="container mx-auto flex justify-between items-center  ">
                 <div>
                     <a href='/'>
                         <Image src={logo} alt="logo" className=" w-[7rem]"/>

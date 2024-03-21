@@ -1,4 +1,4 @@
-import SiteNavbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FreeCard from "@/components/FreeCard";
 import Breakfast from "@/components/Breakfast";
@@ -18,8 +18,8 @@ import FAQ from "@/components/FAQ";
 export default function Home() {
   return (
     <>
-      <main className="px-9 mx-44 max-lg:mx-auto">
-        <SiteNavbar />
+      <main className="mx-44 max-lg:mx-auto px-4">
+      <Navbar />
         <Hero />
         <FreeCard />
         <Breakfast />
@@ -40,9 +40,7 @@ export default function Home() {
       <Questions />
       <QueryForm/>
       <FAQ/>
-      <section className="px-9 mx-44 max-lg:mx-auto">
       <Footer/>
-      </section>
     </>
   );
 }

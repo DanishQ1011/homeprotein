@@ -6,7 +6,7 @@ const FAQ = () => {
     <section id='section' className='border-b-2'>
         <div className="flex flex-col items-center justify-center px-10 py-2 mb-[4rem]">
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg">
-                <h2 className="text-2xl text-primary2 font-bold text-center mb-3 max-sm:w-[30rem] ">
+                <h2 className="text-2xl text-primary2 font-bold text-center mb-3">
                     Frequently Asked Questions
                 </h2>
                 <p className="text-md text-center mb-4 max-sm:w-[18rem]">

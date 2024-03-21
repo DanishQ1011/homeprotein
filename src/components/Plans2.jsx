@@ -77,9 +77,9 @@ export default function Plan() {
 
       <div className="w-full flex flex-col items-center py-10">
         <div className="flex flex-row gap-5 items-center text-[15px] max-sm:text-[12px]">
-          <span>Balanced Meal (15-20gm protein)</span>
+          <span className="text-center">Balanced Meal <br/>(15-20gm protein)</span>
           <Switch onChange={togglePriceConfig} checked={isChecked} />
-          <span>High Protein Meal (35gm protein)</span>
+          <span className="text-center">High Protein Meal <br/> (35gm protein)</span>
         </div>
       </div>
 
