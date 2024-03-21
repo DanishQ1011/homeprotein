@@ -76,7 +76,7 @@ export default function Plan() {
       {/* SWITCH */}
 
       <div className="w-full flex flex-col items-center py-10">
-        <div className="flex flex-row gap-5 items-center">
+        <div className="flex flex-row gap-5 items-center text-[15px] max-sm:text-[12px]">
           <span>Balanced Meal (15-20gm protein)</span>
           <Switch onChange={togglePriceConfig} checked={isChecked} />
           <span>High Protein Meal (35gm protein)</span>
@@ -85,7 +85,7 @@ export default function Plan() {
 
       {/* PLANS */}
 
-      <div className="mt-10 flex gap-5 max-lg:flex-col max-lg:items-center justify-center">
+      <div className="flex gap-5 max-lg:flex-col max-lg:items-center justify-center">
         <PlanBenefitsCard
           benefits={weeklyPlanBenefits}
           subPrice={config.weekly.totalSubPrice}

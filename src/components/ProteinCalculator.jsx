@@ -187,7 +187,7 @@ const ProteinCalculator = () => {
             {/* Output Field */}
             {proteinIntake !== null && (
               <div className="mt-6 flex flex-col items-center justify-center transition-opacity duration-500">
-                <label htmlFor="proteinIntake">Protein Intake (grams):</label>
+                <label htmlFor="proteinIntake">Protein Intake (grams per day):</label>
                 <input type="text" id="proteinIntake" className='text-[34px] text-center w-[10rem]' value={proteinIntake} readOnly />
               </div>
             )}
