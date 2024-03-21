@@ -15,7 +15,7 @@ export default function Breakfast(){
     return(
         <section>
             <div className="flex flex-col justify-center items-center mt-[5rem] gap-3">
-                <h1 className="text-primary1 font-semibold max-sm:text-center text-[34px]">Breakfast Options</h1>
+                <h1 className="text-primary1 font-semibold max-sm:text-center max-sm:text-[32px] text-[34px]">Breakfast Options</h1>
                 <p className="text-primary2 text-[20px] max-sm:text-center">Revitalize your mornings with our scrumptious Breakfast Meal!</p>
             </div>
             <div className='flex logos max-sm:p-8'>

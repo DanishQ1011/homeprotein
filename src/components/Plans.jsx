@@ -6,7 +6,7 @@ export default function Plan(){
     return(
         <section className="mt-10" id="plans">
             <div className="flex flex-col gap-4 items-center">
-                <h1 className="text-[34px] text-primary2 sm:w-[30rem] text-center font-semibold">Protein-Packed Mornings, Wallet-Friendly Choices.</h1>
+                <h1 className="text-[34px] text-primary2 sm:w-[30rem] max-sm:text-[30px] text-center font-semibold">Protein-Packed Mornings, Wallet-Friendly Choices.</h1>
                 <p className="text-[18px] text-center">Energize your day affordably with our budget-friendly Breakfast Meal options.</p>
             </div>
 

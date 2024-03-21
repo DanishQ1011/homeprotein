@@ -18,7 +18,7 @@ import FAQ from "@/components/FAQ";
 export default function Home() {
   return (
     <>
-      <main className="px-9 mx-44 max-lg:mx-auto ">
+      <main className="px-9 mx-44 max-lg:mx-auto">
         <SiteNavbar />
         <Hero />
         <FreeCard />

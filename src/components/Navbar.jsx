@@ -21,8 +21,8 @@ export default function Navbar(){
 
     return(
         <>
-        <nav className="py-2 px-[13rem] max-sm:px-[2rem] max-lg:px-[2rem] bg-white fixed top-0 left-0 right-0 z-50 ">
-            <div className="container mx-auto max-sm:justify-start max-sm:gap-[10rem] flex justify-between items-center">
+        <nav className="py-2 w-full px-[13rem] max-sm:px-[1.8rem] max-lg:px-[2rem] bg-white fixed top-0 left-0 z-50 overflow-hidden">
+            <div className="container mx-auto flex gap-[10rem] items-center">
                 <div>
                     <a href='/'>
                         <Image src={logo} alt="logo" className="w-[7rem]"/>

@@ -78,7 +78,7 @@ const HiringMoms = () => {
               <div>
               <h2 className="font-semibold text-[28px]">Step 5. Licensing and Onboarding</h2>
               <p className="text-[18px] mt-3">
-After completing training and showcasing your culinary skills, the final step formalizes your position as a licensed HomeProtein cook. Here's what's involved:</p>
+                  After completing training and showcasing your culinary skills, the final step formalizes your position as a licensed HomeProtein cook. Here's what's involved:</p>
               <ul className="mt-3 text-[18px] list-disc ml-4">
                 <li>Documentation Submission: Provide two identity proofs for verification. This ensures all cooks are properly registered.</li>
                 <li>FSSAI Registration: Once verified, get guided through obtaining an FSSAI license, ensuring compliance with food safety standards.</li>
