@@ -29,8 +29,7 @@ const HiringMoms = () => {
                   <button className="mt-6 mb-2 px-3 py-2 w-1/4 max:sm-ml-4 bg-black text-white rounded-md max-lg:w-3/4">
                     Fill Form
                   </button>
-                </a>
-              <p className="absolute text-[15px] bottom-0 max-lg:static max-lg:mt-6">(Note: Pregnant individuals are not considered favorable candidates.)</p>
+              </a>
               </div>
               <Image src={step1} alt="Step1Image" width={300} height={250} className="rounded-xl transform scale-x-[-1]" />
             </div>
@@ -78,13 +77,13 @@ const HiringMoms = () => {
               <div>
               <h2 className="font-semibold text-[28px]">Step 5. Licensing and Onboarding</h2>
               <p className="text-[18px] mt-3">
-                  After completing training and showcasing your culinary skills, the final step formalizes your position as a licensed HomeProtein cook. Here's what's involved:</p>
+                  Once you've finished training and shown off your cooking skills, you're officially part of the HomeProtein team! Here's what happens next:</p>
               <ul className="mt-3 text-[18px] list-disc ml-4">
                 <li>Documentation Submission: Provide two identity proofs for verification. This ensures all cooks are properly registered.</li>
-                <li>FSSAI Registration: Once verified, get guided through obtaining an FSSAI license, ensuring compliance with food safety standards.</li>
-                <li>Receiving Your HomeProtein Kit: After FSSAI registration, receive essential items like hair nets and gloves for a clean cooking environment.</li>
+                <li>FSSAI Registration: After verification, we'll guide you through obtaining your FSSAI license, ensuring food safety standards.</li>
+                <li>Receiving Your HomeProtein Kit: Once registered, you'll receive a HomeProtein kit with essentials like hair nets and gloves for a clean cooking space.</li>
               </ul>
-              <p className="text-[18px] mt-3">Congratulations! You're now a licensed cook for HomeProtein! Your commitment to quality and safety is recognized.</p>
+              <p className="text-[18px] mt-3">Congratulations!🥳 You're now a licensed chef partnered with HomeProtein! We appreciate your commitment to maintaining quality and safety standards.❤️</p>
               </div>
               <Image  src={step5} alt="Step5Image" width={300} height={250} className="rounded-xl" />
             </div>
