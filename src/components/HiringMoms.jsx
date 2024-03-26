@@ -17,9 +17,9 @@ const HiringMoms = () => {
         <div className="flex flex-row-reverse gap-10 max-sm:flex-col-reverse mt-3">
           <div className="flex flex-col w-full">
             
-            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
+            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 xl:hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
               <div className="relative">
-              <h2 className="font-semibold text-[28px]">Step 1. Initial Application and Phone Interview</h2>
+              <h2 className="font-semibold text-[28px] max-sm:text-[26px]">Step 1. Initial Application and Phone Interview</h2>
               <ul className="mt-3 text-[18px] list-disc ml-4 ">
                 <li>Fill out our initial form providing basic information in the link given below</li>
                 <li>You will then receive a phone interview session, which can be either a video call or voice call, depending on your preference.</li>
@@ -34,9 +34,9 @@ const HiringMoms = () => {
               <Image src={step1} alt="Step1Image" width={300} height={250} className="rounded-xl transform scale-x-[-1]" />
             </div>
 
-            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
+            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 xl:hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
               <div>
-                <h2 className="font-semibold text-[28px]">Step 2. Home Visit/Inspection</h2>
+                <h2 className="font-semibold text-[28px] max-sm:text-[26px]">Step 2. Home Visit/Inspection</h2>
                 <p className="text-[18px] mt-3">We'll plan a visit to your home to check things out and make sure you're following good hygiene practices.</p>
                 <ul className="mt-2 text-[18px] list-disc ml-4">
                   <li>Waste Disposal: Dispose of waste in covered bins with proper trash bags for sanitation.</li>
@@ -47,9 +47,9 @@ const HiringMoms = () => {
               <Image src={step2} alt="Step2Image" width={300} height={250} className="rounded-xl transform scale-x-[-1]" />
             </div>
 
-            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
+            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 xl:hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
               <div className="relative">
-              <h2 className="font-semibold text-[28px]">Step 3. Taste Testing</h2>
+              <h2 className="font-semibold text-[28px] max-sm:text-[26px]">Step 3. Taste Testing</h2>
               <p className="text-[18px] mt-3">Taste testing is conducted to assess cooking skills and preferences.</p>
               <ul className="mt-3 text-[18px] list-disc ml-4">
                 <li>Choose Fresh Ingredients: Highlight your knack for selecting the freshest ingredients, essential for delicious Indian cuisine.</li>
@@ -60,9 +60,9 @@ const HiringMoms = () => {
               <Image src={step3} alt="Step3Image" width={300} height={250} className="rounded-xl object-cover" />
             </div>
 
-            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
+            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 xl:hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
               <div>
-              <h2 className="font-semibold text-[28px]">Step 4. Recipes Training</h2>
+              <h2 className="font-semibold text-[28px] max-sm:text-[26px]">Step 4. Recipes Training</h2>
               <p className="text-[18px] mt-3">Training is divided into two modules:</p>
               <ul className="mt-3 text-[18px] list-disc ml-4">
                 <li><span className="font-bold">Cooking Techniques:</span> Learn essential skills and methods for preparing delicious meals while maintaining hygiene standards. Covering cooking processes and techniques.</li>
@@ -73,9 +73,9 @@ const HiringMoms = () => {
               <Image src={step4} alt="Step4Image" width={300} className="rounded-xl object-cover transform scale-x-[-1]" />
             </div>
 
-            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
+            <div className="p-5 mt-6 max-sm:flex-col max-sm:items-center bg-gray-100 xl:hover:bg-primary1 transition ease-in-out duration-300 rounded-lg flex gap-[2rem] border-primary1 border-[2px] text-[20px] font-semibold">
               <div>
-              <h2 className="font-semibold text-[28px]">Step 5. Licensing and Onboarding</h2>
+              <h2 className="font-semibold text-[28px] max-sm:text-[26px]">Step 5. Licensing and Onboarding</h2>
               <p className="text-[18px] mt-3">
                   Once you've finished training and shown off your cooking skills, you're officially part of the HomeProtein team! Here's what happens next:</p>
               <ul className="mt-3 text-[18px] list-disc ml-4">

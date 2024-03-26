@@ -28,7 +28,7 @@ export default function Navbar(){
                         <Image src={logo} alt="logo" className=" w-[7rem]"/>
                     </a>
                 </div>
-                <div className="flex gap-10 items-center max-sm:hidden ">
+                <div className="flex gap-4 items-center max-sm:hidden ">
                     <ol className="list-none flex gap-8">
                         <Link href='/#plans'><li>Plans</li></Link>
                         <Link href='/#reviews'><li>Reviews</li></Link>
@@ -39,6 +39,11 @@ export default function Navbar(){
                     <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
                         <button className="px-3 py-2 bg-black text-white rounded-md">
                             Try Now!
+                        </button>
+                    </a>
+                    <a href="https://homeprotein.in/MomOnboard" target="_blank" rel="noopener noreferrer">
+                        <button className="px-3 py-2 bg-black text-white rounded-md">
+                            Join Us!
                         </button>
                     </a>
                 </div>
@@ -70,6 +75,11 @@ export default function Navbar(){
                     <Link href='/#about'><li>About</li></Link>
                     <Link href='/#contact'><li>Contact</li></Link>
                 </ol>
+                <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
+                    <button className="mt-6 px-3 py-2 w-full bg-black text-white rounded-md">
+                        Try Now!
+                    </button>
+                </a>
                 <a href="https://show.forms.app/devnm21/subscription-trial" target="_blank" rel="noopener noreferrer">
                     <button className="mt-6 px-3 py-2 w-full bg-black text-white rounded-md">
                         Try Now!
