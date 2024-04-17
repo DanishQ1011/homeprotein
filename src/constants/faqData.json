@@ -1,0 +1,85 @@
+{
+    "sections": [
+      {
+        "title": "Ordering and Subscription Details",
+        "questions": [
+          { "title": "1. How do I order a home-made meal?", 
+            "answer": "Currently, our ordering system offers two options: a trial meal or a subscription service. Regrettably, we do not provide a la carte meals at this time; our focus is solely on subscription-based offerings." },
+          { "title": "2. When will my meals be delivered everyday?", 
+            "answer": "We currently offer two delivery slots per day: one for lunch, which is between 1:00 PM and 3:00 PM, and another for dinner, scheduled from 7:00 PM to 8:00 PM." },
+          { "title": "3. How often should I pay for my Subscription?", 
+            "answer": "Subscription payments can be made on a weekly or monthly basis, providing flexibility and convenience to our valued customers." },
+          { "title": "4. Can I change my subscription plan?", 
+            "answer": "Unfortunately, our subscription plans are not interchangeable at the moment. However, we continuously review our services to enhance customer satisfaction, and we appreciate your understanding." },
+          { "title": "5. Can I get a refund?", 
+            "answer": "We understand that circumstances may change, and should you choose to cancel your subscription, you will be refunded the remaining amount for any unused meals." },
+          { "title": "6. Can I cancel my meal subscription before due?", 
+            "answer": "Should you wish to cancel your subscription prior to its due date, you are welcome to do so. Refunds for cancellations are processed on the 5th of each month." },
+          { "title": "7. Where can I see the menu?", 
+            "answer": "Our menu is available for your perusal in a convenient PDF format. Please refer to our website or contact our support team for access." },
+          { "title": "8. How do I pause or cancel my Subscription?", 
+            "answer": "If you need to temporarily suspend your subscription, please reach out to our support team directly. They will assist you in pausing your subscription until you're ready to resume." },
+          { "title": "9. Can I have multiple addresses for delivery?", 
+            "answer": "We understand the importance of flexibility in delivery addresses. You can indeed provide multiple addresses for delivery, provided they are in close proximity to our service area. Please inform us of any address changes prior to the dispatch of your scheduled meals." },
+          { "title": "10. How do I change my address and phone number?", 
+            "answer": "Should you need to update your contact information, including your address and phone number, please reach out to our customer support team. They will promptly assist you in making the necessary changes to your account details." }
+        ]
+      },
+      {
+        "title": "Meal Preparation and Delivery",
+        "questions": [
+          { "title": "1. Who prepares my meal?", 
+            "answer": "Your meal is prepared by FSSAI-certified home chefs partnered with us, ensuring adherence to safety guidelines. Many are dedicated housewives and mothers, infusing each dish with homemade care." },
+          { "title": "2. Who delivers my meal?", 
+            "answer": "Delivery is handled by a trusted third-party company with whom we've established a reliable partnership." },
+          { "title": "3. What if my meal is late?", 
+            "answer": "In case of a delayed delivery, you have the option to cancel for that day with a refund." },
+          { "title": "4. What if my meal not delivered?", 
+            "answer": "In case if the meal is not delivered, timely notification will be provided, and a refund will be issued." },
+          { "title": "5. Is the food hygienic?", 
+            "answer": "Our ingredients are sourced from reputable marketplaces, and our meats from certified clean sources, ensuring food hygiene." },
+          { "title": "6. Can I cancel or delay my meal for a specific day?", 
+            "answer": "While we don't offer meal delay options, you can cancel a meal with prior notice." }
+        ]
+      },
+      {
+        "title": "Chef Partnership",
+        "questions": [
+          { "title": "1. How do chefs join HomeProtein?", 
+            "answer": "To join HomeProtein as a chef, individuals must meet certain criteria. Firstly, they should be in good physical health, without any chronic illnesses or pregnancy. Taste testing and adherence to our guidelines are integral parts of the onboarding process. Once these requirements are met, we proceed to register them with the Food Safety and Standards Authority of India (FSSAI)." },
+          { "title": "2. What are the chef partnership requirements?", 
+            "answer": "The specific requirements for chef partnerships will be communicated to interested individuals during the onboarding process." },
+          { "title": "3. Any preferred cuisines or dietary expertise for chefs?", 
+            "answer": "While there are no strict requirements for specific cuisines or dietary expertise, HomeProtein's menu is designed to be easily followed. However, any culinary expertise or specialization can certainly enhance a chef's offerings. Resources such as online tutorials and videos can aid in skill development." },
+          { "title": "4. What is the Chef's compensation model?", 
+            "answer": "The compensation model for chefs is discussed during the onboarding process. Typically, chefs can expect to earn around 4,000 to 5,000 rupees per engagement. This amount may vary depending on factors such as chef availability. For many housewives and mothers, this opportunity provides a valuable source of supplementary income." }
+        ]
+      },
+      {
+        "title": "Dietary Preferences",
+        "questions": [
+          { "title": "1. Are there any options for vegan meal subscriptions?", 
+            "answer": "Presently, we do not offer vegan meal subscriptions." },
+          { "title": "2. Can I request specific dietary restrictions or preferences for my meals, such as gluten-free or dairy-free?", 
+            "answer": "Unfortunately, we are unable to accommodate specific dietary restrictions or preferences such as gluten-free or dairy-free options at this time. However, we strive to provide diverse meal options that cater to various tastes and preferences." },
+          { "title": "3. Do you offer options for high-protein meal subscriptions or meals tailored for specific protein requirements?", 
+            "answer": "Yes, we provide two types of meal subscriptions: a balanced diet meal, designed to meet general nutritional needs, and a high-protein tailored meal for individuals with specific protein requirements." },
+          { "title": "4. Is it Halal?", 
+            "answer": "Absolutely, our meals adhere to halal standards. We source our meat exclusively from halal-certified suppliers to ensure compliance with Islamic dietary laws." },
+          { "title": "5. Can I customize my meal?", 
+            "answer": "While direct meal customization is not currently supported, we are committed to exploring options for accommodating specific meal preferences in the future. We will make every effort to address individual requests based on the availability of customization for specific meals." }
+        ]
+      },
+      {
+        "title": "Service Charges and Policies",
+        "questions": [
+          { "title": "1. Will I be charged for packaging of meals?", 
+            "answer": "No, there are no additional charges for meal packaging." },
+          { "title": "2. Will I be charged for the Delivery?", 
+            "answer": "No, delivery charges are not applied to your order." },
+          { "title": "3. What are the customer support hours for assistance with meal subscriptions and deliveries?", 
+            "answer": "Our customer support team is available for assistance with meal subscriptions and deliveries from 11:00 AM to 10:00 PM." }
+        ]
+      }
+    ]
+  }
