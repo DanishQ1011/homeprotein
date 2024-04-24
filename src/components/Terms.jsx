@@ -50,7 +50,7 @@ const Terms = () => {
         </div>
     <Footer/>
     </div>
-</main>
+    </main>
   )
 }
 
