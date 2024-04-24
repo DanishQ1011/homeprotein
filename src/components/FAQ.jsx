@@ -15,7 +15,7 @@ const FAQ = () => {
             Got a question? We've got answers. If you have some other questions, contact us using email.
           </p>
         </div>
-        <div className='px-4 py-2 w-1/2 max-sm:w-full bg-gray-100 rounded-lg'>
+        <div className='px-4 py-2 w-1/2 max-sm:w-full bg-gray-100 rounded-lg text-primary2'>
           {faqData.sections.map(section => (
             <AccordionGroup
               key={section.title}

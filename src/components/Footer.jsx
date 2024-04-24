@@ -32,7 +32,7 @@ export default function Footer(){
               <p>Bengaluru, Karnataka - 560034</p>
             </div>
             <p className="absolute bottom-5 left-[49%] transform -translate-x-1/2 max-lg:bottom-[2.2rem] max-sm:text-[11px]">© 2024 HomeProtein. All rights reserved.</p>
-            <p className="text-[10px] absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-1 max-lg:bottom-[0.8rem]">Website Made by Shah</p>
+            <p className="text-[10px] absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-1 max-lg:bottom-[0.8rem]">Website Made by <a href="https://iamshah.xyz" target="_blank">Shah</a></p>
           </div>
         </footer>
     )
