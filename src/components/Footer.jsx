@@ -27,12 +27,11 @@ export default function Footer(){
           </div>
 
           <div>
-            <div className="leading-relaxed ml-[1.5rem] max-sm:ml-0 max-sm:px-6  ">
-              <p className="mt-5 max-sm:mt-[2rem]">HomeProtein, #73, 7th Cross Rd, Koramangala 3rd Block,</p>
-              <p>Bengaluru, Karnataka - 560034</p>
+            <div className="leading-relaxed ml-[1.5rem] max-sm:ml-0 max-sm:px-6 text-primary2 text-[14px]">
+              <p className="mt-5 max-sm:mt-[2rem]">#235, 2nd Floor, 13 Cross Rd, 2nd Stage, Hoysala Nagar, <br className="max-sm:hidden"/> Indiranagar,  Bangalore, Karnataka, <br className="md:hidden"/> PIN: 560038 </p>
             </div>
-            <p className="absolute bottom-5 left-[49%] transform -translate-x-1/2 max-lg:bottom-[2.2rem] max-sm:text-[11px]">© 2024 HomeProtein. All rights reserved.</p>
-            <p className="text-[10px] absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-1 max-lg:bottom-[0.8rem]">Website Made by <a href="https://iamshah.xyz" target="_blank">Shah</a></p>
+            <p className="absolute bottom-3 left-[49%] transform -translate-x-1/2 max-lg:bottom-[2rem] text-[11px]">© 2024 HomeProtein. All rights reserved.</p>
+            {/* <p className="text-[10px] absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-1 max-lg:bottom-[0.8rem]">Website Made by <a href="https://iamshah.xyz" target="_blank">Shah</a></p> */}
           </div>
         </footer>
     )
