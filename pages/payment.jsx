@@ -5,7 +5,7 @@ import '../src/app/globals.css'
 const payment = () => {
   return (
     <div className="w-full h-screen ">
-      <div className="p-4">
+      <div>
         <PaymentOption/>
       </div>
     </div>

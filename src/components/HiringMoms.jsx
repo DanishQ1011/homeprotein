@@ -1,18 +1,18 @@
 import Image from "next/image";
-import logo from '@/assets/logo.png'
-import Link from "next/link";
 import Navbar from "./Navbar";
 import step1 from "@/assets/momOnboarding/step1.png";
 import step2 from "@/assets/momOnboarding/step2.png";
 import step3 from "@/assets/momOnboarding/step3.png";
 import step4 from "@/assets/momOnboarding/step4.png";
 import step5 from "@/assets/momOnboarding/step5.png";
+import Footer from "./Footer";
 
 const HiringMoms = () => {
   return (
     <>
+    <main className="w-full">
       <Navbar />
-      <main className="mx-44 mt-[110px] max-lg:mx-auto">
+      <div className="mx-44 mt-[150px] max-lg:mt-[130px] max-lg:mx-[1.8rem] ">
         <h1 className="text-center text-[42px] text-primary1 font-semibold max-sm:text-[32px]">Mom Onboard Process</h1>
         <div className="flex flex-row-reverse gap-10 max-sm:flex-col-reverse mt-3">
           <div className="flex flex-col w-full">
@@ -90,34 +90,8 @@ const HiringMoms = () => {
             
           </div>
         </div>
-
-        <footer className="flex flex-col mt-4 p-3">
-          <div className="flex max-sm:flex-col max-sm:items-center justify-between">
-            <a href="/" target="_blank">
-              <Image src={logo} alt="logo" className="w-[8rem] " />
-            </a>
-            <div className="flex items-center p-5">
-              <div>
-                <ul className="list-none flex gap-10 text-gray-700">
-                  <Link href='#/'><li className="hover:underline">Help</li></Link>
-                  <a href="/policies" target="_blank" rel="noopener noreferrer">
-                    <li className="hover:underline">Policy</li>
-                  </a>
-                  <Link href='#/'><li className="hover:underline">Terms</li></Link>
-                  <Link href='#/'><li className="hover:underline">Contact</li></Link>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="font-light py-8 leading-relaxed border-t-2">
-              <p>Home Protein, #73,7th Cross Rd, 3rd Block, Koramangala 3 Block,</p>
-              <p>Bengaluru, Karnataka 560034</p>
-              <p>© 2024 HomeProtein. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
+      </div>
+      <Footer/>
       </main>
     </>
   )

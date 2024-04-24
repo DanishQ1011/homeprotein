@@ -4,9 +4,8 @@ import Navbar from '@/components/Navbar'
 const Policy = () => {
   return (
     <main className="w-full h-screen ">
-    <div className="p-4">
     <Navbar />
-        <div className="mx-44 mt-[110px] max-lg:mx-auto bg-gray-100 px-10 py-6 pb-10 max-sm:px-7 rounded-lg">
+        <div className="mx-44 mt-[150px] max-lg:mt-[130px] max-lg:mx-[1.8rem] bg-gray-100 px-10 py-6 pb-10 max-sm:px-7 rounded-lg">
 
             <h1 className="text-center text-[42px] text-primary1 font-semibold max-sm:text-[30px]">
                 Privacy Policy
@@ -95,7 +94,7 @@ const Policy = () => {
                     authenticity of the data or information provided by you.<br/>
                     <span className='font-semibold'>Withdrawal of your Consent</span> - You can choose not to provide your data, at any time while availing our
                     goods or services or otherwise withdraw your consent provided to us earlier, in writing to our email ID:
-                    <a href='https://mail.google.com/mail/?view=cm&fs=1&to=theoffice@homeprotein.in' target='_blank' className='text-orange-500'> theoffice@homeprotein.in</a> - In the event you choose to not provide or later withdraw your consent, we may
+                    <a href='https://mail.google.com/mail/?view=cm&fs=1&to=theoffice@homeprotein.in' target='_blank' className='text-primary1'> theoffice@homeprotein.in</a> - In the event you choose to not provide or later withdraw your consent, we may
                     not be able to provide you our services or goods.Please note that these rights are subject to our
                     compliance with applicable laws.
                 </p>
@@ -123,7 +122,6 @@ const Policy = () => {
 
         </div>
     <Footer/>
-    </div>
     </main>
   )
 }

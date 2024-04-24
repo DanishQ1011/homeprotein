@@ -4,9 +4,8 @@ import Footer from "./Footer";
 const Cancellation = () => {
   return (
     <main className="w-full h-screen ">
-    <div className="p-4">
     <Navbar />
-        <div className="mx-[13rem] mt-[110px] max-lg:mx-auto bg-gray-100 px-10 py-6 pb-10 max-sm:px-7 rounded-lg">
+        <div className="mx-[13rem] mt-[170px] max-lg:mt-[130px] max-lg:mx-[1.8rem] bg-gray-100 px-10 py-6 pb-10 max-sm:px-7 rounded-lg ">
 
             <h1 className="text-center text-[42px] text-primary1 font-semibold max-sm:text-[30px]">
                 Cancellation & Refund Policy
@@ -49,8 +48,8 @@ const Cancellation = () => {
 
         </div>
     <Footer/>
-    </div>
     </main>
+
   )
 }
 

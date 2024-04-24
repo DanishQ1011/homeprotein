@@ -1,13 +1,11 @@
-import React from 'react'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 
 const Terms = () => {
   return (
     <main className="w-full h-screen ">
-    <div className="p-4">
     <Navbar />
-        <div className="mx-44 mt-[110px] max-lg:mx-auto bg-gray-100 px-10 py-6 pb-10 max-sm:px-7 rounded-lg">
+        <div className="mx-44 mt-[150px] max-lg:mt-[130px] max-lg:mx-[1.8rem] bg-gray-100 px-10 py-6 pb-10 max-sm:px-7 rounded-lg">
 
             <h1 className="text-center text-[42px] text-primary1 font-semibold max-sm:text-[30px]">
                 Terms & Conditions
@@ -49,7 +47,6 @@ const Terms = () => {
 
         </div>
     <Footer/>
-    </div>
     </main>
   )
 }

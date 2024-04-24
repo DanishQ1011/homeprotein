@@ -4,7 +4,7 @@ import Policy from '@/components/Policy';
 const PrivacyPolicy = () => {
   return (
     <div className="w-full h-screen ">
-    <div className="p-4">
+    <div>
       <Policy/>
     </div>
   </div>

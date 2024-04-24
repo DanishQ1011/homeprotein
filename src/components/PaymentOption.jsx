@@ -15,7 +15,7 @@ const PaymentOption = () => {
   return (
     <>
     <Navbar/>
-    <main className="mx-44 mt-[110px] max-lg:mx-auto">
+    <main className="mx-44 mt-[150px] max-lg:mt-[130px] max-lg:mx-[1.8rem]">
       <h1 className="text-center text-[36px] text-primary1 font-semibold max-sm:text-[30px]">Payment for Trial Meals</h1>
       <div className="flex gap-10 max-sm:flex-col-reverse">
       <div className="mt-8">
