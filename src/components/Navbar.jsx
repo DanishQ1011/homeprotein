@@ -28,8 +28,8 @@ export default function Navbar(){
                         <Image src={logo} alt="logo" className=" w-[7rem]"/>
                     </a>
                 </div>
-                <div className="flex gap-4 items-center max-sm:hidden ">
-                    <ol className="list-none flex gap-8">
+                <div className="flex gap-5 items-center max-sm:hidden ">
+                    <ol className="list-none flex gap-8 mr-4">
                         <Link href='/#plans'><li>Plans</li></Link>
                         <Link href='/#reviews'><li>Reviews</li></Link>
                         <Link href='/#about'><li>About</li></Link>

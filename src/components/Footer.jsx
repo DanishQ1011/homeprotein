@@ -4,7 +4,7 @@ import logo from '@/assets/logo.png'
 
 export default function Footer(){
     return(
-        <footer className="flex flex-col mt-4 p-3">
+        <footer className="flex flex-col mt-4 p-3 bottom-0 ">
           <div className="flex max-sm:flex-col max-sm:items-center justify-between">
             <a href="/" target="_blank">
               <Image src={logo} alt="logo" className="w-[8rem] " />
@@ -24,7 +24,7 @@ export default function Footer(){
           </div>
 
           <div>
-            <div className="font-light py-8 leading-relaxed border-t-2">
+            <div className="font-light leading-relaxed border-t-2">
               <p>Home Protein, #73,7th Cross Rd, 3rd Block, Koramangala 3 Block,</p>
               <p>Bengaluru, Karnataka 560034</p>
               <p>© 2024 HomeProtein. All rights reserved.</p>
