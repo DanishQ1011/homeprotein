@@ -111,9 +111,7 @@ const handleSubmit = async (e) => {
                     </div>
 
             </form>
-            {/* <div>
-                <Image src={about} alt="contactimage" className="w-[400px]"/>
-            </div> */}
+
             </div>
           
         </div>

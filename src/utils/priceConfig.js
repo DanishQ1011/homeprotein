@@ -1,8 +1,8 @@
 export const priceConfig = {
     high: {
         monthly: {
-            totalSubPrice: 5899,
-            perMealPrice: 196,
+            totalSubPrice: 5720,
+            perMealPrice: 220,
             linnerDiscountedPrice: 11000
         },
         weekly: {
@@ -13,8 +13,8 @@ export const priceConfig = {
     },
     balanced: {
         monthly: {
-            totalSubPrice: 4650,
-            perMealPrice: 155,
+            totalSubPrice: 4836,
+            perMealPrice: 186,
             linnerDiscountedPrice: 8499    
         },
         weekly: {

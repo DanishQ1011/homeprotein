@@ -52,7 +52,7 @@ export default function Plan() {
   ];
 
   const monthlyPlanBenefits = [
-    "30 Meals",
+    "26 Meals",
     `${monthlyPricePerMeal} per meal`,
     `Both Lunch and Dinner ${monthlyDiscountedLinnerPrice}`,
     `${proteinContent} proten per meal`,
@@ -91,12 +91,14 @@ export default function Plan() {
           subPrice={config.weekly.totalSubPrice}
           subTitle={"Fueling Your Week with Protein."}
           title={"Weekly Plan"}
+          billingFrequency="weekly"
         />
         <PlanBenefitsCard
           benefits={monthlyPlanBenefits}
           subPrice={config.monthly.totalSubPrice}
           subTitle={"Monthly flavors, crafted with care."}
           title={"Monthly Plan"}
+          billingFrequency="monthly"
         />
 
       </div>

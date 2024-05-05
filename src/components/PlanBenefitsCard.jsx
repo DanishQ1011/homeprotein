@@ -3,9 +3,10 @@ import Image from "next/image";
 import CountUp from 'react-countup';
 
 
-const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice }) => {
+const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice, billingFrequency }) => {
+  const showNote = billingFrequency === 'monthly'
   return (
-    <div className="p-[50px] w-[30rem] h-[31rem] max-sm:w-[20rem] max-sm:h-[36rem] rounded-md shadow-2xl max-lg:shadow-lg">
+    <div className="p-[50px] w-[30rem] h-[33rem] max-sm:w-[20rem] max-sm:h-[36rem] rounded-md shadow-2xl max-lg:shadow-lg">
       <div className="flex flex-col gap-3 items-center">
         <h1 className="text-primary2 text-[24px] font-semibold">{title}</h1>
         <p className="text-primary2">{subTitle}</p>
@@ -31,9 +32,15 @@ const PlanBenefitsCard = ({ title, subTitle, benefits, subPrice }) => {
               <span className="ml-2">
                 {benefit}
               </span>
+              <br/>
             </li>
           ))}
         </ul>
+        {showNote && (
+          <span className="text-[12px] leading-snug line-clamp-2 mt-2">
+            (Note: Meals are not provided on Sundays, therefore the total amount is calculated for 26 days only.)
+          </span>
+          )}
       </div>
       <div className="flex justify-center">
         <a href="https://show.forms.app/devnm21/subscription-trial">
