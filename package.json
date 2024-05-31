@@ -6,11 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gen:zeus": "zeus http://localhost:8080/v1/graphql generated --typescript --header='X-Hasura-Admin-Secret:hasurasecret' --node"
+  },
+  "resolutions": {
+    "strip-ansi": "6.0.0"
+  },
+  "overrides": {
+    "strip-ansi": "6.0.0"
   },
   "dependencies": {
     "axios": "^1.6.2",
     "body-parser": "^1.20.2",
+    "date-fns": "3.6.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "next": "14.0.4",
@@ -21,11 +29,16 @@
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.30.2",
-    "react-switch": "7.0.0"
+    "react-switch": "7.0.0",
+    "ws": "8.16.0"
   },
   "devDependencies": {
+    "@types/node": "20.12.5",
+    "@types/react": "18.2.74",
     "autoprefixer": "^10.0.1",
+    "graphql-zeus": "5.3.3",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.4.4"
   }
 }
